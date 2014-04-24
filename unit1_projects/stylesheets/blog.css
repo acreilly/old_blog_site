@@ -10,6 +10,10 @@ header{
 	margin-bottom: 20px;
 }
 
+#heading{
+	margin: -5px 0 5px 0;
+}
+
 #content{
 width: 450px;
 background-color: black;
@@ -24,6 +28,14 @@ border: 5px inset #29aae1;
 
 #content p{
 	font-size: 14px;
+}
+
+#content img{
+	width: 90%;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 header h1{
@@ -49,6 +61,7 @@ footer{
 	width: 40%;
 	clear: both;
 }
+
 
 footer a:link{
 	font-size: 12px;
