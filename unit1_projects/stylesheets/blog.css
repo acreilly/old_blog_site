@@ -10,38 +10,6 @@ header{
 	margin-bottom: 20px;
 }
 
-aside{
-	width: 200px;
-	height: 440px;
-	float: left;
-	overflow: hidden;
-	border: 5px inset #29aae1;
-	position: absolute;
-	left: 150px;
-}
-
-aside img{
-	height: 440px;
-	width: auto;
-}
-
-#otherside{
-	width: 200px;
-	height: 440px;
-	float: right;
-	overflow: hidden;
-	border: 5px inset #29aae1;
-	position: absolute;
-	right: 150px;
-}
-
-#otherside img{
-	height: 440px;
-	width: auto;
-	position: relative;
-	right: 200px;
-}
-
 #content{
 width: 450px;
 background-color: black;
@@ -76,29 +44,6 @@ header h1 strong{
 }
 
 
-#image{
-	padding: 10px;
-}
-
-#image img{
-	width: 40%;
-	height: auto;
-}
-
-#image p{
-	z-index: 1;
-	position: relative;
-	bottom: 50px;
-	padding: 10px;
-	color: white;
-	font-weight: 400;
-	background-color: rgba(0,0,0,.4);
-}
-
-
-h3{
-	clear: both;
-}
 
 footer{
 	width: 40%;
