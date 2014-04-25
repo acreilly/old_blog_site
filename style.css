@@ -102,7 +102,7 @@ h3{
 
 footer{
 	width: 40%;
-	clear: both;
+	margin: 0px 40px;
 }
 
 footer a:link{
@@ -132,10 +132,3 @@ color: #29aae1;
 	border: 2px inset #29aae1;	
 }
 
-footer #site{
-	float: left;
-}
-
-footer #profolio{
-	float: right;
-}
