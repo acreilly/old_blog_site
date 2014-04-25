@@ -105,6 +105,9 @@ footer{
 	width: 40%;
 	clear: both;
 }
+footer h5{
+	margin-bottom: 1px;
+}
 
 footer a:link{
 	font-size: 12px;
