@@ -75,6 +75,12 @@ border: 5px inset #29aae1;
 	font-size: 14px;
 }
 
+#content #blog2{
+	font-size: 12;
+	font-weight: 300;
+	text-transform: lowercase;
+}
+
 #content img{
 	width: 90%;
 	height: auto;
@@ -83,8 +89,16 @@ border: 5px inset #29aae1;
 	margin-right: auto;
 }
 
+#content p span{
+	font-size: 14px;
+	font-weight: 700;
+	color: #29AAE1;
+	text-transform: uppercase;
+}
 
-
+#content h5{
+	color: #29AAE1;
+}
 
 footer{
 	width: 40%;
