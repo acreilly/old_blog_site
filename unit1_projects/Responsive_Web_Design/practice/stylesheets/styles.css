@@ -59,7 +59,6 @@ h4 {
 }
 
 
-/* Navigation */
 nav li {
   float: left;
 }
@@ -94,7 +93,6 @@ nav li a:hover {
 }
 
 
-/* Header */
 header {
   background-color: #009D92;
   padding: 10px;
@@ -120,14 +118,12 @@ header nav a:hover {
 }
 
 header:after {
-  /* clearfix hack */
   content: "";
   display: table;
   clear: both;
 }
 
 
-/* Main */
 #main section {
   margin-bottom: 1em;
   position: relative;
@@ -332,7 +328,7 @@ footer:after {
     line-height: 40px;
   }
   header nav li a {
-    font-size: 10px;
+    font-size: 8px;
     margin: 3px;
     padding: 1px;
   }
