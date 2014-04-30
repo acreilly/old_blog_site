@@ -1,4 +1,4 @@
-/* General Styles */
+
 body {
   background-color: rgb(241, 241, 241);
   font-family: 'Lato', Arial, sans-serif;
@@ -238,7 +238,6 @@ header:after {
 }
 
 
-/* Fun Facts */
 #facts h2 {
   text-shadow: 1px 1px 2px #FFA700;
 }
@@ -272,7 +271,7 @@ header:after {
 }
 
 
-/* Footer */
+
 footer {
   background-image: -webkit-linear-gradient(#00665F, #1D766F, #00665F);
   background-image: -moz-linear-gradient(#00665F, #1D766F, #00665F);
@@ -291,14 +290,13 @@ footer nav a:hover {
 }
 
 footer:after {
-  /* clearfix hack */
   content: "";
   display: table;
   clear: both;
 }
 
 
-/* Fonts */
+
 @font-face {
   font-family: 'EntypoRegular';
   src: url('font/Entypo-webfont.eot');
@@ -310,17 +308,15 @@ footer:after {
   font-style: normal;
 }
 
-/** Tablet view **/
 @media screen and (max-width: 960px){
   h1 {
-    font-size: 1.1em;
+    font-size: 13px;
     line-height: 40px;
   }
   header nav li{
     line-height: 40px;
   }
 }
-/** Mobile view **/
 @media screen and (max-width: 480px){
   h1{
     padding: 20px;
@@ -336,7 +332,7 @@ footer:after {
     line-height: 40px;
   }
   header nav li a {
-    font-size: 0.9em;
+    font-size: 10px;
     margin: 3px;
     padding: 1px;
   }
@@ -347,7 +343,7 @@ footer:after {
     width: 80%
   }
   h2{
-    font-size: 2.0em;
+    font-size: 20px;
   }
   #organizations{
     height:auto;
@@ -362,7 +358,7 @@ footer:after {
      line-height: 40px;
    }
   footer nav li a {
-     font-size: 0.9em;
+     font-size: 10px;
      margin: 3px;
      padding: 1px;
    }
