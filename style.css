@@ -90,6 +90,10 @@ font-weight: 400;
 	color: #29AAE1;
 
 }
+#content img{
+	width: 95%;
+	height: auto;
+}
 
 
 aside{
