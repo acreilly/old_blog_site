@@ -1,6 +1,7 @@
 body{
 	font-family: 'Raleway', sans-serif;
 background-color: #eee;
+margin: auto;
 }
 
 header #name{
@@ -13,7 +14,6 @@ header #name{
 header #name h1{
 	font-size: 87px;
 	padding: 20px;
-	margin-left: 35px;
 }
 
 header #name h1 span{
@@ -50,6 +50,7 @@ nav ul li a{
 nav ul li a:first-child{
 	margin-right: 20px;
 }
+
 nav ul li:nth-child(0) a:after,
 nav ul li:nth-child(1) a:after,
 nav ul li:nth-child(2) a:after,
@@ -65,7 +66,7 @@ nav a:hover{
 
 
 #content{
-margin: 40px 50px;
+margin: 50px 0px;
 width: 40%;
 height: 330px;
 overflow: scroll;
@@ -96,15 +97,30 @@ font-weight: 400;
 }
 
 
-aside{
-	position: fixed;
-	left: 10px;
+#icons ul{
+position: absolute;
+right: -10px;
+top: 270px;
+list-style: none;
+display: block;
 }
 
-aside ul{
-	list-style: none;
+#icons ul li a #icon{
+	margin: 10px 0px;
+	padding: 10px 20px 10px 10px;
+	background-color: #29AAE1;
+	border-radius: 15px;
+	text-align: center;
 }
 
+
+#icons ul li a #icon:hover{
+	color: black;
+}
+
+#icons #icon{
+	color: white;
+}
 
 
 
