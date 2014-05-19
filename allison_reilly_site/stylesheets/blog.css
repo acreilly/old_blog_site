@@ -1,3 +1,6 @@
+body{
+	overflow: hidden;
+}
 #content #blog2{
 	font-size: 12;
 	font-weight: 300;

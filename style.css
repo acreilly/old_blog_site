@@ -2,6 +2,9 @@ body{
 	font-family: 'Raleway', sans-serif;
 background-color: #eee;
 margin: auto;
+overflow: hidden;
+overflow-x:hidden;
+
 }
 
 header #name{
