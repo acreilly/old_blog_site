@@ -96,6 +96,9 @@ font-weight: 400;
 #content img{
 	width: 95%;
 	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #content a{
@@ -107,8 +110,29 @@ font-weight: 400;
 	font-style: italic;
 }
 
+#content strong{
+	font-weight: 800;
+}
 
+#content .example{
+	background-color: #29AAE1;
+	color: black;
+	width: 95%;
+	padding: 4px;
+	display: block;
+	margin: 10px auto 10px auto;
+	_border: 1px solid black;
+	border-radius: 5px;
+	font-weight: 700;
+	font-size: 13px;
+}
 
+#content p span{
+	font-size: 14px;
+	font-weight: 700;
+	color: #29AAE1;
+	text-transform: uppercase;
+}
 
 #icons ul{
 position: absolute;
