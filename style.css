@@ -233,8 +233,8 @@ nav ul li a{
 	display: none;
 }
 footer{
-	position: relative;
-	_bottom: 0;
+	position: absolute;
+	bottom: 0;
 }
 
 }
