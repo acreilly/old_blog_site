@@ -4,7 +4,6 @@ background-color: #eee;
 margin: auto;
 overflow: hidden;
 overflow-x:hidden;
-
 }
 
 header #name{
@@ -44,7 +43,7 @@ nav ul li a{
 	padding: 15px 0;
 	margin: 0 20px;
 	color: white;
-	font-weight: 700;
+	font-weight: 600;
 	text-decoration: none;
 	font-family: 'Raleway', sans-serif;
 	-webkit-transition: all 1s;
@@ -82,12 +81,12 @@ font-weight: 400;
 }
 
 #content h3{
-	font-weight: 800;
+	font-weight: 700;
 	font-size: 16px;
 	margin: 20px 0;
 }
 #content h5{
-	font-weight: 800;
+	font-weight: 600;
 	font-size: 14px;
 	margin: 10px 0;
 	color: #29AAE1;
@@ -103,7 +102,7 @@ font-weight: 400;
 
 #content a{
 	color: black;
-	font-weight: 700;
+	font-weight: 600;
 }
 
 #content em{
@@ -111,28 +110,49 @@ font-weight: 400;
 }
 
 #content strong{
-	font-weight: 800;
-}
-
-#content .example{
-	background-color: #29AAE1;
-	color: black;
-	width: 95%;
-	padding: 4px;
-	display: block;
-	margin: 10px auto 10px auto;
-	_border: 1px solid black;
-	border-radius: 5px;
 	font-weight: 700;
-	font-size: 13px;
 }
 
 #content p span{
 	font-size: 14px;
-	font-weight: 700;
+	font-weight: 600;
 	color: #29AAE1;
 	text-transform: uppercase;
 }
+
+#content .example{
+	background-color: black;
+	color: #29AAE1;
+	width: 95%;
+	padding: 4px;
+	display: block;
+	margin: 10px auto 10px auto;
+	border-radius: 5px;
+	font-weight: 600;
+	font-size: 13px;
+}
+
+#content table{
+	width: 95%;
+}
+
+#content td{
+	border: 1px solid black;
+	padding: 5px;
+}
+
+#content td:first-child{
+	font-weight: 600;
+	text-align: center;
+	font-size: 15px;
+	vertical-align: middle;
+}
+
+#content ul li{
+	padding: 5px 0;
+}
+
+
 
 #icons ul{
 position: absolute;

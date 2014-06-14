@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+		<link rel="stylesheet" href="../style.css"/>
+		<link rel="stylesheet" href="stylesheets/blog.css"/>
+		<link rel="stylesheet" href="../reset.css"/>
+	<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,800' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css">
+	<title>Allison Reilly's Blog</title>
+</head>
+<body>
+	<center>
+<header><div id="name"><h1><span>allison</span><strong>reilly</strong></h1></div>
+		<nav>
+			<ul>
+				<li><a href="week3_cultural_blog.html"><<</a></li>
+				<li><a href="../index.html">Home</a></li>
+				<li><a href="www.allisoncreilly.com" id="site">Website</a></li>
+				<li><a href="http://yourprofolio.com/areilly" id="profolio">ProFolio</a></li>
+				<li><a href="week5_cultural_blog.html">>></a></li>
+			</ul>
+		</nav>
+		</header>
+	<div id="content">
+<h3>Week Four Technical Blog</h3>
+<h5>Arrays vs. Hashes</h5>
+<p>
+	Arrays are ordered, integer-indexed collections of any object. Array indexing starts at 0. A negative index is assumed to be relative to the end of the array—that is, an index of -1 indicates the last element of the array, -2 is the next to last element in the array, and so on. </p> <a href="http://www.ruby-doc.org/core-2.1.2/Array.html">Arrays</a>
+
+<p>A Hash is a collection of key-value pairs. It is similar to an Array, except that indexing is done through arbitrary keys of any object type, not an integer index. Hashes enumerate their values in the order that the corresponding keys were inserted.Hashes have a default value that is returned when accessing keys that do not exist in the hash. By default, that value is nil. </p> <a href="http://ruby-doc.org/core-2.1.2/Hash.html">Hashes</a>
+
+<p>Array's are good for values that don't need to be organized by content, but rather by index. If you need to store information of relative content you can use an array. If you need to store information and organize it by its content, a hash would be a lot better. With a hash you could look up first name, and recieve all the first name values of that key.</p>
+
+<h5>Looping</h5>
+<strong>for loop</strong>
+<p>Executes code once for each element in expression.
+<br><em>Example:</em>
+<br>for i in 0..5
+  <br> puts "Value of local variable is #{i}"
+<br>end</p>
+<br>
+<strong>while loop</strong>
+<p>Executes code while conditional is true. A while loop's conditional is separated from code by the reserved word do, a newline, backslash \, or a semicolon ;.
+	<br><em>Example:</em>
+	<br>while i < num  do
+   <br>puts("Inside the loop i = #{i}" )
+ <br>  i +=1
+<br>end
+	<br>
+	<br>While modifier: If a while modifier follows a begin statement with no rescue or ensure clauses, code is executed once before conditional is evaluated.
+<br><em>Example:</em>
+<br>i = 0
+<br>num = 5
+<br>begin
+   <br>puts("Inside the loop i = #{i}" )
+   <br>i +=1
+<br>end while $i < $num
+</p>
+<br>
+<strong>until loop</strong>
+<p>Executes code while conditional is false. An until statement's conditional is separated from code by the reserved word do, a newline, or a semicolon. 
+	<br><em>Example:</em>
+	<br>i = 0
+<br>num = 5
+<br>until i > num  do
+   <br>puts("Inside the loop i = #{i}" )
+   <br>i +=1;
+<br>end
+	<br>Until modifier: If an until modifier follows a begin statement with no rescue or ensure clauses, code is executed once before conditional is evaluated.
+<br><em>Example:</em>
+<br>i = 0
+<br>num = 5
+<br>begin
+<br>puts("Inside the loop i = #$i" )
+   <br>i +=1;
+<br>end until $i > $num</p>
+<br>
+<strong>break</strong>
+<p>Terminates the most internal loop. Terminates a method with an associated block if called within the block (with the method returning nil).</p>
+<br>
+<strong>next</strong>
+<p>Jumps to next iteration of the most internal loop. Terminates execution of a block if called within a block (with yield or call returning nil).</p>
+<br>
+<strong>redo</strong>
+<p>Restarts this iteration of the most internal loop, without checking loop condition. Restarts yield or call if called within a block.</p>
+<br>
+<strong>retry</strong>
+<p>If retry appears in rescue clause of begin expression, restart from the beginning of the 1begin body. If retry appears in the iterator, the block, or the body of the for expression, restarts the invocation of the iterator call. Arguments to the iterator is re-evaluated.</p>
+</div>
+<div id="icons">
+	<ul>
+		<li><a href="mailto:acreilly3@gmail.com"><i id="icon" class="fa fa-envelope fa-3x"></i></a></li>
+		<li><a href="https://www.facebook.com/alliethecat"><i id="icon" class="fa fa-facebook-square fa-3x"></i></a></li>
+		<li><a href="https://www.linkedin.com/pub/allison-reilly/43/377/838"><i id="icon" class="fa fa-linkedin fa-3x"></i></a></li>
+		<li><a href="https://github.com/acreilly"><i id="icon" class="fa fa-github fa-3x"></i></a></li>
+	</ul>
+</div>
+	<footer>© allison reilly</footer>
+	</center>
+</body>
+</html>
