@@ -72,7 +72,7 @@ width: 40%;
 height: 330px;
 overflow: scroll;
 overflow-x: hidden;
-border:2px dashed black;
+border:3px solid #f4f4f4;
 text-align: left;
 padding: 10px;
 font-family: 'Raleway', sans-serif;
@@ -183,11 +183,15 @@ display: block;
 
 footer{
 	width: 100%;
-	color: white;
+	height: 15px;
 	background-color: black;
-	font-size: 5px;
 	position: fixed;
 	bottom: 0;
+}
+
+footer p{
+	color: white;
+	font-size: 12px;
 	text-align: center;
 }
 
@@ -204,18 +208,30 @@ header #name{
 }
 
 header #name h1{
-	font-size: 40px;
+	font-size: 45px;
 	padding: 5px;
 }
 
 nav{
-	height: 70px;
+	height: 85px;
 }
 
 nav ul li a{
+	position: relative;
 	font-size: 12px;
-	padding: 5px 0;
-	margin: 0;
+	margin: 45px 0px 0 0px;
+	padding-right: 15px;
+	font-weight: 400;
+
+}
+nav ul li:nth-child(1) a:after,
+nav ul li:nth-child(2) a:after{
+	padding-left: 15px;
+	content: "|";
+	color: gray;
+}
+nav ul li:last-child{
+	padding-right: 15px;
 }
 
 #content{
@@ -229,11 +245,51 @@ nav ul li a{
 #content p{
 	font-size: 12px;
 }
-#icons {
-	display: none;
+
+#content ul, ol{
+	font-size: 12px;
 }
-footer{
-	position: absolute;
+
+
+
+#icons ul{
+position: absolute;
+bottom: 0;
+top: 0;
+right: 0;
+list-style: none;
+display: inline;
+}
+
+#icons{
+	position: fixed;
+	bottom: 0;
+}
+
+#icons ul li{
+	display: inline-block;
+}
+
+#icons ul li a #icon{
+	background-color: black;
+	margin: 2px 4px;
+	padding: 2px;
+	border-radius: 0;
+	text-align: center;
+}
+
+
+#icons ul li a #icon:hover{
+	color: #29AAE1;
+}
+
+#icons #icon{
+	color: #eee;
+}
+
+footer p{
+	font-size: 8px;
+	margin-top: 2px;
 	}
 
 }
