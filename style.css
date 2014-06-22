@@ -1,6 +1,7 @@
 
 body{
 background-color: #eee;
+overflow: hidden;
 }
 
 header{
@@ -165,7 +166,7 @@ font-weight: 400;
 	padding: 5px 0;
 }
 
-
+/*
 #icons ul{
 position: absolute;
 right: -15px;
@@ -192,6 +193,30 @@ display: block;
 }
 
 */
+
+#iconss{
+
+}
+
+#iconss ul{
+	list-style: none;
+}
+
+#iconss ul li{
+	display: inline-block;
+}
+
+#iconss ul li a{
+	color: rgba(0,0,0,0.25);
+	margin: 0px 5px;
+	-webkit-transition: all 1s;
+	transition: all 1s;
+}
+
+
+#iconss ul li a:hover{
+	color: black;
+}
 
 footer{
 	position: absolute;
