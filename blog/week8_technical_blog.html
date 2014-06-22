@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="../style.css"/>
+		<link rel="stylesheet" href="../normalize.css"/>
+		<link href='http://fonts.googleapis.com/css?family=Raleway:300,400,600,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<title>Allison Reilly - DevBootcamp</title>
+		</head>
+		<body>
+			
+			<header class="col span_8_of_8">
+				<div id="name">
+					<h1>
+					<span>allison</span><strong>reilly</strong>
+					</h1>
+				</div>
+				<nav>
+					<ul>
+						<li><a href="week8_cultural_blog.html"><<</a></li>
+						<li><a href="../index.html">Home</a></li>
+						<li><a href="../about.html">About</a></li>
+						<li><a href="../blog_home.html" id="active">Blog</a></li>
+						<li><a href="http://yourprofolio.com/areilly" id="profolio">ProFolio</a></li>
+						<li><a href="#">>></a></li>
+					</ul>
+				</nav>
+			</header>
+			<div class="section group">
+				<div class="col span_2_of_8"></div>
+				<div id="content" class="col span_4_of_8">
+					<!-- begin -->
+			<h3>Week Eight Technical Blog</h3>
+			<h5>Regular Expressions <span style="color:black;font-weight:400;font-size:10px;">aka Regex or Regexp</span></h5>
+			<p>A regular expression a special sequence of characters that helps you match or find strings.It uses a specialized syntax held in a pattern. Regular expressions are used for pattern matching and text processing.</p><br>
+			<p>Regexps are created using the...</p>
+				<div class="example">
+					/.../
+					<br>%r{...}
+					<br>Regexp::new</div>
+			<br>
+			<p>Some of the most common expressions are...</p>
+			<br>
+			<center>
+				<table style="width:90%;">
+					<tr>
+						<td>.</td>
+						<td>Matches any single characters except a new line</td>
+					</tr>
+					<tr>
+						<td>*</td>
+						<td>Matches 0 or more of the preceding character</td>
+					</tr>
+					<tr>
+						<td>+</td>
+						<td>Matches 1 or more of the preceding character</td>
+					</tr>
+					<tr>
+						<td>?</td>
+						<td>Preceding character is optional. Matches 0 or 1 occurrence</td>
+					</tr>
+					<tr>
+						<td>\d</td>
+						<td>Matches any single digit</td>
+					</tr>
+					<tr>
+						<td>\w</td>
+						<td>Matches any word character (alphanumeric and underscore)</td>
+					</tr>
+					<tr>
+						<td>\s</td>
+						<td>Matches any white space character</td>
+					</tr>
+					<tr>
+						<td>\S</td>
+						<td>Matches any character that is not white space</td>
+					</tr>
+					<tr>
+						<td>\b</td>
+						<td>Matches a word boundary position such as whitespace, punctuation, or the start/end of the string. This matches a position, not a character.</td>
+					</tr>
+					<tr>
+						<td>\B</td>
+						<td>Matches any position that is not a word boundary. This matches a position, not a character.</td>
+					</tr>
+					<tr>
+						<td>{1,3}</td>
+						<td>Matches the specified quantity of the previous token. {1,3} will match 1 to 3. {3} will match exactly 3. {3,} will match 3 or more.</td>
+					</tr>
+					<tr>
+						<td>[XYZ]</td>
+						<td>Matches any single character from the character class</td>
+					</tr>
+					<tr>
+						<td>[XYZ]+</td>
+						<td>Matches one or more of any of the characters in the set</td>
+					</tr>
+					<tr>
+						<td>$</td>
+						<td>Matches the end of a string</td>
+					</tr>
+					<tr>
+						<td>^</td>
+						<td>Matches the beginning of a string</td>
+					</tr>
+					<tr>
+						<td>[^a-z]</td>
+						<td>When ^ inside a character class, it means NOT</td>
+					</tr>
+			</table>
+		</center>
+
+	<h5>Example</h5>
+	<p>Below, we are checking if a phone number has the correct amount of digits</p>
+	<div class="example">/\(\d{3}\) \d{3}-\d{4}/</div>
+	<p>To check if it is a match we will use .match</p>
+	<div class="example">
+		"(123) 456-7890".match /\(\d{3}\) \d{3}-\d{4}/ <br>
+/\(\d{3}\) \d{3}-\d{4}/.match "(123) 456-7890"</div>
+<p>These will return true.</p>
+		
+
+
+<h5>Cheatsheet</h5>
+<a href="http://www.addedbytes.com/download/regular-expressions-cheat-sheet-v2/png"><img src="http://www.addedbytes.com/cheat-sheets/download/regular-expressions-cheat-sheet-v2.png"/></a>
+<br>
+<h5>Sources</h5>
+<ul style="list-style:none;">
+	<li><a href="http://code.tutsplus.com/tutorials/you-dont-know-anything-about-regular-expressions-a-complete-guide--net-7869">You Don't Know Anything About Regular Expressions: A Complete Guide</a></li>
+	<li><a href="http://www.tutorialspoint.com/ruby/ruby_regular_expressions.htm">Ruby Regular Expressions</a></li>
+	<li><a href="http://www.regexr.com">RegExr: Learn, Build & Test RegEx</a></li>
+	<li><a href="http://www.ruby-doc.org/core-2.1.1/Regexp.html">Class: Regexp</a></li>
+</ul>
+		<!-- end -->
+				</div>
+			</div>
+			<div class="col span_2_of_8"></div>
+<div id="icons">
+	<ul>
+		<li><a href="mailto:acreilly3@gmail.com"><i id="icon" class="fa fa-envelope fa-3x"></i></a></li>
+		<li><a href="https://www.facebook.com/alliethecat"><i id="icon" class="fa fa-facebook-square fa-3x"></i></a></li>
+		<li><a href="https://www.linkedin.com/pub/allison-reilly/43/377/838"><i id="icon" class="fa fa-linkedin fa-3x"></i></a></li>
+		<li><a href="https://github.com/acreilly"><i id="icon" class="fa fa-github fa-3x"></i></a></li>
+	</ul>
+</div>
+			<div class="section group">
+				<footer class="col span_8_of_8">
+					<hr class="style-two">
+					<p>© allison reilly</p>
+				</footer></div>
+			</body>
+		</html>
