@@ -5,7 +5,7 @@
 		<link rel="stylesheet" href="../style.css"/>
 		<link rel="stylesheet" href="../reset.css"/>
 		<link href='http://fonts.googleapis.com/css?family=Raleway:300,400,600,700' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css">
+			<link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css">
 			<meta name="viewport" content="width=device-width, initial-scale=1">
 			<title>Allison Reilly - DevBootcamp</title>
 		</head>
@@ -32,31 +32,43 @@
 				<div class="col span_2_of_8"></div>
 				<div id="content" class="col span_4_of_8">
 					<!-- begin -->
-			<h3>Week Seven Technical Blog</h3>
-			<h5>SQL Injections</h5>
-			<p>SQL Injection can destroy your database. It is a code injection technique where a user can insert, or inject, a SQL command into a SQL statement through a web page input. w3 schools gives an example of SQL injection where 1=1 is always true. A user can take a command and add or 1=1 to the end of it, so the statement will always return true, even if the other command is false.
-			<br>A dangerous example..</p>
-			<div class="example">SELECT UserId, Name, Password FROM Users WHERE UserId = 105 or 1=1</div>
-			<p>Now a hacker has the ability to have access to all users passwords.
-A hacker might get access to user names and passwords in a database by inserting " or ""=" into the user name or password text box.</p>
-<h5>Protection against SQL Injections</h5>
-<p>Some web developers use a "blacklist" of words or characters to search for in SQL input, to prevent SQL injection attacks but it isn't a very good idea since many of these words are used in common language, such as delete or drop. The only proven way to protect a website and prevent SQL injection is SQL parameters. SQL parameters are values that are added to an SQL query at execution time, in a controlled manner. Other than SQL parameters, the site should be coded in such a way to protect against data leaks.</p>
-		<!-- end -->
+					<h3>Week Seven Technical Blog</h3>
+					<h5>SQL Injections</h5>
+					<p>SQL Injection can destroy your database. It is a code injection technique where a user can insert, or inject, a SQL command into a SQL statement through a web page input. w3 schools gives an example of SQL injection where 1=1 is always true. A user can take a command and add or 1=1 to the end of it, so the statement will always return true, even if the other command is false.
+					<br>A dangerous example..</p>
+					<div class="example">SELECT UserId, Name, Password FROM Users WHERE UserId = 105 or 1=1</div>
+					<p>Now a hacker has the ability to have access to all users passwords.
+					A hacker might get access to user names and passwords in a database by inserting " or ""=" into the user name or password text box.</p>
+					<h5>Protection against SQL Injections</h5>
+					<p>Some web developers use a "blacklist" of words or characters to search for in SQL input, to prevent SQL injection attacks but it isn't a very good idea since many of these words are used in common language, such as delete or drop. The only proven way to protect a website and prevent SQL injection is SQL parameters. SQL parameters are values that are added to an SQL query at execution time, in a controlled manner. Other than SQL parameters, the site should be coded in such a way to protect against data leaks.</p>
+					<!-- end -->
+					<div id="disqus_thread"></div>
+					<script type="text/javascript">
+					/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+					var disqus_shortname = 'acreilly3'; // required: replace example with your forum shortname
+					/* * * DON'T EDIT BELOW THIS LINE * * */
+					(function() {
+					var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+					dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+					(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+					})();
+					</script>
+					<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+					<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+					
 				</div>
-			</div>
-			<div class="col span_2_of_8"></div>
-<div id="icons">
-	<ul>
-		<li><a href="mailto:acreilly3@gmail.com"><i id="icon" class="fa fa-envelope fa-3x"></i></a></li>
-		<li><a href="https://www.facebook.com/alliethecat"><i id="icon" class="fa fa-facebook-square fa-3x"></i></a></li>
-		<li><a href="https://www.linkedin.com/pub/allison-reilly/43/377/838"><i id="icon" class="fa fa-linkedin fa-3x"></i></a></li>
-		<li><a href="https://github.com/acreilly"><i id="icon" class="fa fa-github fa-3x"></i></a></li>
-	</ul>
-</div>
-			<div class="section group">
-				<footer class="col span_8_of_8">
+				<div class="col span_2_of_8"></div>
+				<footer>
 					<hr class="style-two">
 					<p>© allison reilly</p>
-				</footer></div>
+					<div id="icons">
+						<ul>
+							<li><a href="mailto:acreilly3@gmail.com"><i id="icon" class="fa fa-envelope fa-lg"></i></a></li>
+							<li><a href="https://www.facebook.com/alliethecat"><i id="icon" class="fa fa-facebook-square fa-lg"></i></a></li>
+							<li><a href="https://www.linkedin.com/pub/allison-reilly/43/377/838"><i id="icon" class="fa fa-linkedin fa-lg"></i></a></li>
+							<li><a href="https://github.com/acreilly"><i id="icon" class="fa fa-github fa-lg"></i></a></li>
+						</ul>
+					</div>
+				</footer>
 			</body>
 		</html>
